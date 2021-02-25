@@ -29,10 +29,10 @@ pip install -r requirements.txt
 
 In diesem Beispiel enthaltenen Bibliotheken sind:
 
-pandas == 1.0.1
-numpy == 1.18.1
-matplotlib == 3.1.3
-seaborn == 0.11.1
-scikit-learn == 0.24.1
-keras == 2.3.1
-tensorflow
+- pandas = 1.0.1
+- numpy = 1.18.1
+- matplotlib = 3.1.3
+- seaborn = 0.11.1
+- scikit-learn = 0.24.1
+- keras = 2.3.1
+- tensorflow
