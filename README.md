@@ -1,10 +1,12 @@
 # Aufgabe 2
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Soley02/DeepLearning/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Soley02/Aufgabe_2/HEAD)
 
 Ein Binder-Kompatibles Repository mit einer `requirements.txt` und `runtime.txt` Datei.
 
 Sie können auch unter der folgenden Binder-URL dieses Notebook erzeugen:
+
+https://mybinder.org/v2/gh/Soley02/Aufgabe_2/HEAD
 
 ## Ausführung:
 
