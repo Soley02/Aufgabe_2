@@ -17,7 +17,7 @@ Die Daten welches in den ML-Beispielen verwendet wurden, sind ebenfalls direkt a
 1. Schritt: Auf Badge von MyBinder klicken oder per LINK
 2. Schritt: Warten bis alle erforderlichen Pakete/Module durch MyBinder hinzugefügt sind
 3. Schritt: MyBinder wurde erfolgreich durchgeführt und Jyupter Notebook (Nbviewer) öffnet sich
-4. Schritt: Der Code (2-Mnist Mit Multi-Layer Perceptron.ipynb) kann via MyBinder ausgeführt werden
+4. Schritt: Der Code (Aufgabe_2.ipynb) kann via MyBinder ausgeführt werden
 
 ### Notes
 
