@@ -116,71 +116,34 @@ predict ran in: 0.7880904674530029 sec
 # Unit Test
 
 setUp
-__init__ ran in: 0.0003829002380371094 sec
-__init__ ran in: 2.86102294921875e-06 sec
-fit ran in: 19.16295313835144 sec
-F
-fit ran in: 15.845725297927856 sec
+__init__ ran in: 3.814697265625e-06 sec
+.
+fit ran in: 15.610037088394165 sec
 setUp
-__init__ ran in: 1.9073486328125e-06 sec
-__init__ ran in: 3.0994415283203125e-06 sec
-fit ran in: 18.687777996063232 sec
-F
-fit ran in: 22.472535133361816 sec
+__init__ ran in: 2.86102294921875e-06 sec
+.
+fit ran in: 16.504836797714233 sec
 Classification report for classifier:
+```
               precision    recall  f1-score   support
 
-        0.0       0.76      0.94      0.84       980
+        0.0       0.78      0.94      0.85       980
         1.0       0.76      0.96      0.85      1135
-        2.0       0.78      0.64      0.71      1032
+        2.0       0.79      0.64      0.71      1032
         3.0       0.67      0.76      0.71      1010
-        4.0       0.71      0.76      0.74       982
-        5.0       0.62      0.43      0.51       892
-        6.0       0.70      0.84      0.76       958
-        7.0       0.77      0.80      0.79      1028
-        8.0       0.77      0.59      0.67       974
-        9.0       0.78      0.57      0.66      1009
+        4.0       0.71      0.77      0.74       982
+        5.0       0.62      0.42      0.50       892
+        6.0       0.69      0.84      0.76       958
+        7.0       0.76      0.80      0.78      1028
+        8.0       0.79      0.59      0.67       974
+        9.0       0.78      0.58      0.66      1009
 
 avg / total       0.74      0.74      0.73     10000
+```
 
-
-predict ran in: 0.09670519828796387 sec
-Classification report for classifier:
-              precision    recall  f1-score   support
-
-        0.0       0.76      0.94      0.84       980
-        1.0       0.76      0.96      0.85      1135
-        2.0       0.78      0.64      0.71      1032
-        3.0       0.67      0.76      0.71      1010
-        4.0       0.71      0.76      0.74       982
-        5.0       0.62      0.43      0.51       892
-        6.0       0.70      0.84      0.76       958
-        7.0       0.77      0.80      0.79      1028
-        8.0       0.77      0.59      0.67       974
-        9.0       0.78      0.57      0.66      1009
-
-avg / total       0.74      0.74      0.73     10000
-
-
-predict ran in: 0.093994140625 sec
-
-======================================================================
-FAIL: test_fit (__main__.TestInput)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "<ipython-input-14-a84def0d72dc>", line 51, in test_fit
-    self.assertEqual(self.ta.fit(), self.train_accuracy)
-AssertionError: 72.518 != 73
-
-======================================================================
-FAIL: test_predict (__main__.TestInput)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "<ipython-input-14-a84def0d72dc>", line 58, in test_predict
-    self.assertEqual(self.ta.predict(), self.test_accuracy)
-AssertionError: 73.55000000000001 != 73.4
+predict ran in: 0.06742596626281738 sec
 
 ----------------------------------------------------------------------
-Ran 2 tests in 76.417s
+Ran 2 tests in 32.259s
 
-FAILED (failures=2)
+OK
