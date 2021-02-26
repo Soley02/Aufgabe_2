@@ -74,10 +74,14 @@ predict ran in: 0.31096410751342773 sec
  [8.20112177e-07 1.59678416e-11 8.68839081e-08 ... 1.89171359e-10
   2.79791723e-09 8.33080605e-10]]
 ```
-sparse_categorical_accuracy: 0.9133 / fit ran in: 8.655128717422485 sec
+sparse_categorical_accuracy: 0.9133 / fit ran in: 8.655128717422485 sec 
+
 sparse_categorical_accuracy: 0.9574 / fit ran in: 9.135992050170898 sec
-predict ran in: 0.28151822090148926 sec
-predict ran in: 0.31096410751342773 sec
+
+predict ran in: 0.28151822090148926 sec 
+
+predict ran in: 0.31096410751342773 sec 
+
 ____________________________________________________________________________________________________________________________________
 
 # Ausgabe auf LogFile
@@ -101,7 +105,10 @@ INFO:root:[[3.9486068e-08 2.1983795e-09 7.6838014e-06 ... 9.9995577e-01
   1.8111427e-09 5.1400609e-11]]
 INFO:root:predict ran in: 0.7880904674530029 sec
 ```
-fit ran in: 6.9062581062316895 sec
-fit ran in: 7.2004218101501465 sec
-predict ran in: 0.7085063457489014 sec
-predict ran in: 0.7880904674530029 sec
+fit ran in: 6.9062581062316895 sec 
+
+fit ran in: 7.2004218101501465 sec 
+
+predict ran in: 0.7085063457489014 sec 
+
+predict ran in: 0.7880904674530029 sec 
