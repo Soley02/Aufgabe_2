@@ -39,7 +39,7 @@ In diesem Beispiel enthaltenen Bibliotheken sind:
 - keras = 2.3.1
 - tensorflow
 
-# Ausgabe
+# Ausgabe auf Console
 ```
 Fit model on training data
 Train on 50000 samples, validate on 10000 samples
@@ -48,7 +48,10 @@ Epoch 1/2
 Epoch 2/2
 50000/50000 [==============================] - 7s 138us/sample - loss: 0.1577 - sparse_categorical_accuracy: 0.9537 - val_loss: 0.1309 - val_sparse_categorical_accuracy: 0.9626
 ```
-______________________
+Epoche 1: sparse_categorical_accuracy: 0.9029 - val_loss: 0.1751 - val_sparse_categorical_accuracy: 0.9509
+
+Epoche 2: sparse_categorical_accuracy: 0.9537 - val_loss: 0.1309 - val_sparse_categorical_accuracy: 0.9626
+____________________________________________________________________________________________________________________________________
 ```
 50000/50000 [==============================] - 9s 173us/sample - loss: 0.3016 - sparse_categorical_accuracy: 0.9133
 fit ran in: 8.655128717422485 sec
@@ -71,3 +74,34 @@ predict ran in: 0.31096410751342773 sec
  [8.20112177e-07 1.59678416e-11 8.68839081e-08 ... 1.89171359e-10
   2.79791723e-09 8.33080605e-10]]
 ```
+sparse_categorical_accuracy: 0.9133 / fit ran in: 8.655128717422485 sec
+sparse_categorical_accuracy: 0.9574 / fit ran in: 9.135992050170898 sec
+predict ran in: 0.28151822090148926 sec
+predict ran in: 0.31096410751342773 sec
+____________________________________________________________________________________________________________________________________
+
+# Ausgabe auf LogFile
+```
+INFO:root:fit ran in: 6.9062581062316895 sec
+INFO:root:<tensorflow.python.keras.callbacks.History object at 0x7fe9c81c2310>
+INFO:root:fit ran in: 7.2004218101501465 sec
+INFO:root:predict ran in: 0.7085063457489014 sec
+INFO:root:[[3.9486068e-08 2.1983795e-09 7.6838014e-06 ... 9.9995577e-01
+  6.4028228e-07 5.7066512e-07]
+ [5.5616717e-10 1.9435910e-07 9.9999964e-01 ... 8.6448519e-13
+  1.5083966e-10 8.3847161e-16]
+ [3.9545075e-06 9.9305224e-01 1.6709617e-03 ... 3.4542033e-03
+  1.0789203e-03 3.1086965e-05]
+ ...
+ [5.8697108e-10 4.5543451e-11 8.1743147e-11 ... 1.5621517e-05
+  8.3484840e-05 8.1325264e-04]
+ [1.7630679e-10 2.1816998e-10 3.8712237e-08 ... 6.2148825e-10
+  9.5406140e-06 9.3240485e-12]
+ [3.7211529e-09 1.1715197e-14 1.0348017e-06 ... 1.2872167e-15
+  1.8111427e-09 5.1400609e-11]]
+INFO:root:predict ran in: 0.7880904674530029 sec
+```
+fit ran in: 6.9062581062316895 sec
+fit ran in: 7.2004218101501465 sec
+predict ran in: 0.7085063457489014 sec
+predict ran in: 0.7880904674530029 sec
