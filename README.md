@@ -115,6 +115,8 @@ predict ran in: 0.7880904674530029 sec
 
 # Unit Test
 
+## Test OK
+```
 setUp
 __init__ ran in: 3.814697265625e-06 sec
 .
@@ -124,7 +126,6 @@ __init__ ran in: 2.86102294921875e-06 sec
 .
 fit ran in: 16.504836797714233 sec
 Classification report for classifier:
-```
               precision    recall  f1-score   support
 
         0.0       0.78      0.94      0.85       980
@@ -139,7 +140,7 @@ Classification report for classifier:
         9.0       0.78      0.58      0.66      1009
 
 avg / total       0.74      0.74      0.73     10000
-```
+
 
 predict ran in: 0.06742596626281738 sec
 
@@ -147,3 +148,55 @@ predict ran in: 0.06742596626281738 sec
 Ran 2 tests in 32.259s
 
 OK
+```
+
+## Test Failed
+
+```
+setUp
+__init__ ran in: 4.291534423828125e-06 sec
+F
+fit ran in: 19.956449031829834 sec
+setUp
+__init__ ran in: 2.86102294921875e-06 sec
+F
+fit ran in: 21.153944969177246 sec
+Classification report for classifier:
+              precision    recall  f1-score   support
+
+        0.0       0.78      0.94      0.85       980
+        1.0       0.76      0.96      0.85      1135
+        2.0       0.79      0.64      0.71      1032
+        3.0       0.67      0.76      0.71      1010
+        4.0       0.71      0.77      0.74       982
+        5.0       0.62      0.42      0.50       892
+        6.0       0.69      0.84      0.76       958
+        7.0       0.76      0.80      0.78      1028
+        8.0       0.79      0.59      0.67       974
+        9.0       0.78      0.58      0.66      1009
+
+avg / total       0.74      0.74      0.73     10000
+
+predict ran in: 0.18126606941223145 sec
+
+======================================================================
+FAIL: test_fit (__main__.TestInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<ipython-input-25-ca086a060c24>", line 40, in test_fit
+    self.assertEqual(result, self.train_accuracy)
+AssertionError: 72.442 != 73.4
+
+======================================================================
+FAIL: test_predict (__main__.TestInput)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<ipython-input-25-ca086a060c24>", line 49, in test_predict
+    self.assertEqual(self.ta.predict(), self.test_accuracy)
+AssertionError: 73.57000000000001 != 74
+
+----------------------------------------------------------------------
+Ran 2 tests in 41.315s
+
+FAILED (failures=2)
+```
