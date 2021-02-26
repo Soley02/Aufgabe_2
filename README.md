@@ -39,7 +39,7 @@ In diesem Beispiel enthaltenen Bibliotheken sind:
 - keras = 2.3.1
 - tensorflow
 
-# Ausgabe auf Console
+## Ausgabe auf Console
 ```
 Fit model on training data
 Train on 50000 samples, validate on 10000 samples
@@ -84,7 +84,7 @@ predict ran in: 0.31096410751342773 sec
 
 ____________________________________________________________________________________________________________________________________
 
-# Ausgabe auf LogFile
+## Ausgabe aus LogFile
 ```
 INFO:root:fit ran in: 6.9062581062316895 sec
 INFO:root:<tensorflow.python.keras.callbacks.History object at 0x7fe9c81c2310>
@@ -113,7 +113,7 @@ predict ran in: 0.7085063457489014 sec
 
 predict ran in: 0.7880904674530029 sec 
 
-# Unit Test
+# Unit Test - Ausgabe
 
 ## Test OK
 ```
